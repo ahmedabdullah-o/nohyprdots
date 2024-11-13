@@ -1,0 +1,32 @@
+* {
+    border: 0;
+    border-radius: 5px;
+}
+
+#window {
+    font-size: 20px;
+    color: rgb(200,200,200);
+    font-family: "Roboto Mono Medium";
+    background: rgba(20,20,20, .8);
+    border-radius: 5px;
+}
+
+#entry:selected {
+    background: linear-gradient(90deg, #44aa88, transparent);
+    border-radius: 5px;
+}
+
+#text:selected {
+    color: rgb(20, 20, 20);
+}
+
+#input {
+    background: rgb(20,20,20);
+    border: 0;
+    color: #44aa88
+
+}
+
+#input:selected {
+    border: 0;
+}
