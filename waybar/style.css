@@ -12,7 +12,8 @@ button:hover {
 }
 
 window{
-    transition: border, border-radius 0.5s ease-in-out;
+    transition: border,
+    border-radius 0.5s ease-in-out;
 }
 
 window#waybar {
@@ -60,7 +61,7 @@ window#waybar.solo{
 #temperature,
 #battery,
 #network,
-#pulseaudio {
+#pulseaudio{
     padding: 0 10px;
     margin: 3px;
     background-color: rgba(24,24,24,.5);

@@ -6,16 +6,15 @@
     // "width": 1280, // Waybar width
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
-    "modules-left": [	
-        "hyprland/workspaces",
-        "hyprland/window"
+    "modules-center": [	
+        "hyprland/workspaces"
     ],
-    "modules-center": [
-        "clock"
+    "modules-left": [
+        "clock",
+        "hyprland/window",
+	"tray"
     ],
     "modules-right": [
-        "tray",
-	"mpd",
         "memory",
 	"cpu",
 	"temperature",
